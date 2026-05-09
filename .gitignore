@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Data — tracked by DVC, not Git
+*.csv
+submission_*.csv
+
+# Models — tracked by DVC, not Git
+models/*.joblib
+models/*.pkl
+!models/*.joblib.dvc
+
+# DVC internals
+.dvc/cache/
+.dvc/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/

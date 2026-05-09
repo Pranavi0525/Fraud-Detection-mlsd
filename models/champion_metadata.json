@@ -1,0 +1,26 @@
+{
+  "model_type": "XGBoost",
+  "dataset": "IEEE-CIS Fraud Detection",
+  "training_samples": 472432,
+  "testing_samples": 118108,
+  "n_features": 375,
+  "auc_roc": 0.9302,
+  "pr_auc": 0.6298,
+  "optimal_threshold": 0.83,
+  "scale_pos_weight": 27.6,
+  "fraud_rate_pct": 3.5,
+  "n_estimators": 300,
+  "max_depth": 6,
+  "learning_rate": 0.05,
+  "training_time_min": 1.0,
+  "confusion_matrix": [
+    [
+      112884,
+      1091
+    ],
+    [
+      1896,
+      2237
+    ]
+  ]
+}
